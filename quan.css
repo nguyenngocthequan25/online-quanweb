@@ -1,0 +1,103 @@
+
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    
+}
+.logo{
+    width: 70%;
+    display: flex;
+}
+.logo1 {
+    width: 270px;
+    height:120px;
+}
+.button{
+    width: 40%;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.nut {
+    padding-right: 15px;
+    font-size: 20px;
+    color: rgb(153, 153, 153);;
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+}
+select{
+    border: none;
+    font-size: 18px;
+    color: rgb(153, 153, 153);;
+}
+select:hover{
+    color: red;
+    cursor: pointer;
+}
+li{
+    padding-right: 30px;
+    font-size: 15px;
+    color: #9EABA2;
+    font-size: 20px;
+}
+.backgroud{
+    background: url(hinhanh/nen.png) ;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.board{
+    background-color: #00000059;
+    width: 590px;
+    height: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 120px;
+}
+.introduce{
+    color: white;
+    text-align: center;
+}
+input{
+    padding: 5px 10px;
+    width: 520px;
+    
+}
+button{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    height: 29px;
+    margin-left: -15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Write{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.wr{
+    display: flex;
+    
+}
+
+.chu{
+    padding-right: 25px;
+    padding-left: 12px;
+}
+.intro{
+    text-align: center;
+}
+.intro > img {
+    width: 100px;
+    margin-top: 10px;
+}
